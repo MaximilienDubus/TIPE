@@ -8,7 +8,7 @@ Ce travail porte sur l’étude de la compression d’images avec pertes, en par
 
 L’objectif principal de ce TIPE est de comprendre et expliquer le fonctionnement des étapes de la compression JPEG, en mettant en évidence les principes mathématiques et informatiques sous-jacents : transformation des couleurs (RGB → YCbCr), sous-échantillonnage de la chrominance, transformée en cosinus discrète (DCT), quantification, codage RLE et codage de Huffman.
 
-Une fois l’algorithme de compression JPEG programmé en Python, l’objectif est également :
+Ayant programmé en Python l’algorithme de compression JPEG, l’objectif est également :
 - D'évaluer les performances sur une large collection d’images.
 - De mesurer le compromis entre qualité visuelle et taux de compression (taille des fichiers).
 
